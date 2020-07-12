@@ -23,14 +23,14 @@ const itemScema={
 const Item = mongoose.model("Item",itemScema);
 
 const item1 = new Item({
-  name:"ball1"
+  name:"Type down to add new "
 });
 
 const item2 = new Item({
-  name:"ball2"
+  name:"click enter or +"
 });
 const item3 = new Item({
-  name:"ball3"
+  name:"<--check to delete"
 });
 
 const defaultItems =[item1,item2,item3];
